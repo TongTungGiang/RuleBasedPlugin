@@ -1,0 +1,17 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "Rule Based Plugin",
+	"Description" : "The plugin which makes NPCs the ability to think, based on a given rule set",
+	"CreatedBy" : "Tống Tùng Giang",
+	"CreatedByURL" : "github.com/tongtunggiang",
+	"Modules" :
+	[
+		{
+			"Name" : "RuleBasedPlugin",
+			"Type" : "Developer",
+			"LoadingPhase" : "Default"
+		}
+	]
+}
