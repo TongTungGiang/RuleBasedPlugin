@@ -2,7 +2,6 @@
 
 #include "RuleBasedPluginPrivatePCH.h"
 
-
 class FRuleBasedPlugin : public IRuleBasedPlugin
 {
 	/** IModuleInterface implementation */
@@ -17,6 +16,9 @@ IMPLEMENT_MODULE( FRuleBasedPlugin, RuleBasedPlugin )
 void FRuleBasedPlugin::StartupModule()
 {
 	// This code will execute after your module is loaded into memory (but after global variables are initialized, of course.)
+	void *TheEnv;
+	TheEnv = CreateEnvironment();
+
 }
 
 
